@@ -27,7 +27,7 @@ import * as Animatable from "react-native-animatable";
 
 type CartScreenNavigationProp = NativeStackNavigationProp<
   RootStackParamList,
-  "login"
+  "login" //revise this one
 >;
 
 const LoginSchema = Yup.object().shape({
